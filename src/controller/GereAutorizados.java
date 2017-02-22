@@ -13,8 +13,8 @@ public class GereAutorizados
 		arAutorizados = new ArrayList<>();
 	}
 	
-	public void addEncarregado(String nome, String morada,String agregfamiliar, int cc, int nif, int contacto, int nib)
+	public void addEncarregado(String nome, String morada,String agregfamilia, int cc, int nif, int contacto, int nib)
 	{
-		Autorizados e = new Autorizados(nome, morada, nib, cc, nif, contacto, agregfamiliar);
+		Autorizados d = new Autorizados(nome, morada, nib, cc, nif, contacto, agregfamilia);
 	}
 }

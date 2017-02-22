@@ -2,10 +2,10 @@ package model;
 
 public class Autorizados 
 {
-	private String nome, morada, agregfamiliar;
+	private String nome, morada, agregfamilia;
 	private int cc, nif, contacto, nib;
 	
-	public Autorizados(String nome, String morada, int cc, int nif, int contacto, int nib, String agregfamiliar) 
+	public Autorizados(String nome, String morada, int cc, int nif, int contacto, int nib, String agregfamilia) 
 	{
 		super();
 		this.nome = nome;
@@ -14,14 +14,14 @@ public class Autorizados
 		this.nif = nif;
 		this.contacto = contacto;
 		this.nib = nib;
-		this.agregfamiliar= agregfamiliar;
+		this.agregfamilia= agregfamilia;
 	}
 
-	public String getAgregfamiliar() {
-		return agregfamiliar;
+	public String getAgregfamilia() {
+		return agregfamilia;
 	}
-	public void setAgregfamiliar(String agregfamiliar) {
-		this.agregfamiliar = agregfamiliar;
+	public void setAgregfamilia(String agregfamilia) {
+		this.agregfamilia = agregfamilia;
 	}
 
 
