@@ -1,6 +1,7 @@
 package controller;
 
 import java.util.ArrayList;
+
 import model.Encarregado;
 
 public class GereEncarregado 
@@ -12,8 +13,8 @@ public class GereEncarregado
 		arEncarregado = new ArrayList<>();
 	}
 	
-	public void addEncarregado(String nome, String morada, int cc, int nif, int contacto, int nib)
+	public void addEncarregado(String nome, String morada,String agregfamiliar, int cc, int nif, int contacto, int nib)
 	{
-		Encarregado e = new Encarregado(nome, morada, cc, nif, contacto, nib);
+		Encarregado e = new Encarregado(nome, morada, nib, cc, nif, contacto, agregfamiliar);
 	}
 }
