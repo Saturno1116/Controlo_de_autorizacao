@@ -10,10 +10,10 @@ public class GereEncarregado
 	public GereEncarregado()
 	{
 		arEncarregado = new ArrayList<>();
-		
-		public void addEncarregado(String nome, String morada, int cc, int nif, int contacto, int nib)
-		{
-			Encarregado e = new Encarregado(arEncarregado.size(), nome, morada, cc, nif, contacto, nib);
-		}
+	}
+	
+	public void addEncarregado(String nome, String morada, int cc, int nif, int contacto, int nib)
+	{
+		Encarregado e = new Encarregado(nome, morada, cc, nif, contacto, nib);
 	}
 }
