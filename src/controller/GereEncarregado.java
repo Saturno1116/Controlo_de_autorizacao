@@ -1,6 +1,7 @@
 package controller;
 
 import java.util.ArrayList;
+
 import model.Encarregado;
 
 public class GereEncarregado 
