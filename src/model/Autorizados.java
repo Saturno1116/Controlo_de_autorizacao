@@ -3,7 +3,7 @@ package model;
 public class Autorizados 
 {
 	private String nome, morada, agregfamilia;
-	private int cc, nif, contacto, nib;
+	private int cc, nif, contacto, nib, idAuto, id;
 	
 	public Autorizados(String nome, String morada, int cc, int nif, int contacto, int nib, String agregfamilia) 
 	{
@@ -15,6 +15,7 @@ public class Autorizados
 		this.contacto = contacto;
 		this.nib = nib;
 		this.agregfamilia= agregfamilia;
+		
 	}
 
 	public String getAgregfamilia() {
@@ -83,6 +84,19 @@ public class Autorizados
 	public void setNib(int nib)
 	{
 		this.nib = nib;
+	}
+
+	public Autorizados(int id) {
+		super();
+		this.id = id;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }

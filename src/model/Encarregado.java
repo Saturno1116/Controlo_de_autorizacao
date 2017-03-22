@@ -3,7 +3,7 @@ package model;
 public class Encarregado 
 {
 	private String nome, morada, agregfamiliar;
-	private int cc, nif, contacto, nib;
+	private int cc, nif, contacto, nib, id;
 	
 	public Encarregado(String nome, String morada, int cc, int nif, int contacto, int nib, String agregfamiliar) 
 	{
@@ -85,6 +85,19 @@ public class Encarregado
 	public void setNib(int nib)
 	{
 		this.nib = nib;
+	}
+
+	public Encarregado(int id) {
+		super();
+		this.id = id;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }
