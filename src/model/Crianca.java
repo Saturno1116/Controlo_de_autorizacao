@@ -20,6 +20,23 @@ public class Crianca
 	public String getNome() {
 		return nome;
 	}
+	public ArrayList<Encarregado> getArEncarregado() {
+		return arEncarregado;
+	}
+	public void setArEncarregado(ArrayList<Encarregado> arEncarregado) {
+		this.arEncarregado = arEncarregado;
+	}
+	public ArrayList<Autorizados> getArAutorizados() {
+		return arAutorizados;
+	}
+	public void setArAutorizados(ArrayList<Autorizados> arAutorizados) {
+		this.arAutorizados = arAutorizados;
+	}
+	public Crianca(ArrayList<Encarregado> arEncarregado, ArrayList<Autorizados> arAutorizados) {
+		super();
+		this.arEncarregado = arEncarregado;
+		this.arAutorizados = arAutorizados;
+	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}

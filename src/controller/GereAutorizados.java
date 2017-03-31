@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import model.Autorizados;
-import model.Crianca;
 
 public class GereAutorizados 
 {
@@ -13,13 +12,13 @@ public class GereAutorizados
 	public GereAutorizados()
 	{
 		arAutorizados = new ArrayList<>();
-		addAutorizado(null, null, null, 0, 0, 0, 0);
+	
 	}
 	
 	public Autorizados addAutorizado(String nome, String morada,String agregfamilia, int cc, int nif, int contacto, int nib)
 	{
 		Scanner sc = new Scanner(System.in);
-		ArrayList<Autorizados> arAutorizados = new ArrayList<Autorizados>();
+		
 		Autorizados d = new Autorizados( nome,  morada,  cc, nif,  contacto,  nib, agregfamilia);
 		
 	    int novoId = arAutorizados.size();
